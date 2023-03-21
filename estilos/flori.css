@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.btn-floripink {
+  color: #fff;
+  background-color: #ea5769;
+  border-color: #ea5769;
+  box-shadow: none;
+}
+
+.btn-floripink:hover {
+  color: #fff;
+  background-color: #0069D9;
+  border-color: #0069D9;
+}
+
+.btn-floripink:focus, .btn-floripink.focus {
+  color: #fff;
+  background-color: #ea5769;
+  border-color: #ea5769;
+  box-shadow: 0 0 0 0 rgba(130, 138, 145, 0.5);
+}
+
+.btn-floripink.disabled, .btn-floripink:disabled {
+  color: #fff;
+  background-color: #ea5769;
+  border-color: #ea5775;
+}
+
+.btn-floripink:not(:disabled):not(.disabled):active, .btn-floripink:not(:disabled):not(.disabled).active,
+.show > .btn-floripink.dropdown-toggle {
+  color: #545b62;
+  background-color: #ea5769;
+  border-color: #ea5769;
+}
+
+.btn-floripink:not(:disabled):not(.disabled):active:focus, .btn-floripink:not(:disabled):not(.disabled).active:focus,
+.show > .btn-floripink.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0 rgba(130, 138, 145, 0.5);
+}
+
+img {
+  height: 13vh;
+  /* margin-right: 2%;  */  
+
+}
+.textFlori{
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vh;
+  color: #fff;
+}
+
+/*.textFloriPdv{
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  margin-top: 6%; 
+  margin-left: 3%;
+  white-space: nowrap;
+  color: #424242;
+}*/
+
+.textLogin{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 650;
+  font-size: 26px;
+  line-height: 128.69%;
+  /* or 41px */
+  color: #424242;
+}
+
+.textBom{
+  /* float:left; */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 128.69%;
+  /* or 26px */
+
+  color: #424242;
+
+}
+
+.titleBox{
+    
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+div .card {
+  box-sizing: border-box;
+  width: 90vw;
+  top: 500px;
+  max-width: 500px; /* adicionado para limitar a largura em dispositivos maiores */
+  margin: 10vh auto;
+  padding: 3vh 1vw;
+  border-radius: 30px; 
+  position:fixed;
+  max-height: 510px; /* adicionado para limitar a altura em dispositivos maiores */
+  
+}
+
+@media (max-width:576px) {
+  div .card {
+    padding: 1.5vh 0.5vw;
+    border-radius: 18px;
+    height: 78vh;
+  }
+}
+
+
+
+.esqueciSenha{
+
+  font-size: 14px;
+  /* margin-top: 5vw; */
+}
+
+
+.col-lg-6,
+.col-md-8,
+.col-sm-12 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position:relative;
+}
+
+@media(max-height:815px){
+  .col-lg-6,
+  .col-md-8,
+  .col-sm-12 {
+    margin: 5vh auto; /* ajustando a margem para dispositivos menores */
+    top:5vh;
+  }
+}
