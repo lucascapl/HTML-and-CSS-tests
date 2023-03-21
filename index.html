@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/flori.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -21,15 +22,18 @@
                 <div class="textBom">
                     <p> Seja bem vindo!</p>
                 </div>
-                <form action="" method="post">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="password">Senha:</label>
-                    <input type="password" id="password" name="password" required>
-                    <button type="submit">Login</button>
-                    <div>
-                    <a href="#">Esqueceu sua senha?</a>
+                <form action="" method="post" autocomplete="on">
+                    <div class="campo">
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="Email" id="email" name="login" autocomplete="email" required>
+                        <i class="material-icons">person</i>
+                    <div class="campo">
+                        <label for="password">Senha:</label>
+                        <input type="password" placeholder="Senha" id="password" name="senha" autocomplete="current-password" required>
+                        <i class="material-icons">vpn_key</i>
                     </div>
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueceu sua senha? <i class="material-icons">mail</i></a>
                 </form>
             </div>
         </section>
